@@ -1,0 +1,44 @@
+li.suscribe{
+	list-style-type: none;
+}
+input.subscribe{
+	width: 200px;
+	padding: 10px;
+	margin: 10px 0;
+	border: 2px solid #eee;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+.form-block{
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px 30px 10px 0;
+	background-color: transparent; 
+}
+h3.form-title{
+	font-size: 27px;
+	padding-left: 50px;
+}
+button.subscribe{
+	border-radius: 50px;
+	margin-top: 20px;
+}
+img.subscribe{
+	width: 200px;
+	height: auto;
+}
+.topbutton{
+	width: 38px;
+	height: 38px;
+	border: 2px solid #ccc;
+	background-color: transparent;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	cursor: pointer;
+	border-radius: 50px;
+}

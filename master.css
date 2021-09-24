@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+    background-image: url(img/imga.jpg); /* Путь к фоновому изображению */
+    background-color: #000000; /* Цвет фона */
+    background-position: center; /* Выравнивание по центру  */
+    background-attachment: fixed; /* Фиксация на месте */
+    background-size: 1923px;
+}
+
+header {
+    background: #1f2129; /* Цвет фона */
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2-img {
+    width: 600px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 630px;
+}
+
+.lol {
+    display: flex;
+    margin-left: +150px;
+}
+
+.phone {
+    color: #06b3c1;
+    font-size: 29;
+    font-family: Century Gothic, sans-serif;
+    margin-right: 30px;
+}
+
+.pbutton {
+    max-height: 50;
+}
+
+.call1 {
+    color: #06b3c1;
+    font-size: 30;
+    font-family: Century Gothic, sans-serif;
+    margin-left: 6px;
+}
+
+h3 {
+    color: #ffffff; /* Цвет текста */
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    margin-top: 110px;
+    font-size: 49; /* Размер текста */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 250px;
+}
+
+.content {
+    max-width: 10600px;
+    min-width: 418px;
+    padding: 20px;
+}
+
+.content img {
+    float: left;
+    max-height: 472px;
+    max-width: 58px;
+    margin-right: 47px;
+}
+
+h1 {
+    color: #ffffff; /* Цвет текста */
+    font-family: Century Gothic, sans-serif;
+}
+
+h2 {
+    color: #ffffff; /* Цвет текста */
+    font-family: Century Gothic, sans-serif;
+    font-size: 21px; /* Размер текста */
+    font-variant: small-caps;
+}
+
+.pool {
+    height: 294px;
+    position: relative;
+    width: 722px;
+    margin: 0 auto;
+    margin-top: -27px;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.polezno{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
